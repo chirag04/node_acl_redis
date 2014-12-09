@@ -1,0 +1,35 @@
+{
+  "name": "acl-redis",
+  "version": "0.1.0",
+  "description": "Redis backend for acl",
+  "keywords": [
+    "middleware",
+    "acl",
+    "web",
+    "redis"
+  ],
+  "repository": "git://github.com/chirag04/node_acl_redis.git",
+  "author": "Chirag Jain <jain_chirag04@yahoo.com>",
+  "homepage": "https://github.com/chirag04/node_acl_redis",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "acl": "~0.4.3",
+    "async": "~0.2.10",
+    "lodash": "~2.4.1",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.12",
+    "chai": "~1.7.2",
+    "async": "~0.2.10",
+    "lodash": "~2.4.1",
+    "acl": "~0.4.3"
+  },
+  "scripts": {
+    "test": "mocha test/runner.js --reporter spec",
+    "cover": "istanbul cover -- _mocha test/runner.js --reporter spec"
+  }
+}
