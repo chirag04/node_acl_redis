@@ -1,5 +1,5 @@
 #NODE ACL - Redis backend
-This fork adds Firebase backend support to [NODE ACL](https://github.com/OptimalBits/node_acl)
+This fork adds Redis backend support to [NODE ACL](https://github.com/OptimalBits/node_acl)
 
 ##Installation
 
